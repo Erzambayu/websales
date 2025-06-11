@@ -2,11 +2,43 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#d32f2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="format-detection" content="telephone=yes">
+    
     <title>Budi Santoso - Sales Consultant Chery Tiggo 8 | Mobil SUV Terbaik Indonesia</title>
     <meta name="description" content="Dapatkan penawaran terbaik Chery Tiggo 8 dari Budi Santoso, sales consultant berpengalaman. Harga mulai IDR 357.500.000 dengan fitur premium dan teknologi canggih.">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="keywords" content="Chery Tiggo 8, sales mobil, SUV 7 seater, mobil keluarga, Jakarta, Budi Santoso, ADAS, panoramic sunroof">
+    <meta name="author" content="Budi Santoso">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Budi Santoso - Sales Consultant Chery Tiggo 8">
+    <meta property="og:description" content="Dapatkan penawaran terbaik Chery Tiggo 8 dengan harga mulai IDR 357.500.000. Sales consultant berpengalaman 8+ tahun siap melayani Anda.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:locale" content="id_ID">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Budi Santoso - Sales Consultant Chery Tiggo 8">
+    <meta name="twitter:description" content="SUV Premium 7 seater dengan teknologi canggih. Harga mulai IDR 357.500.000.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    
+    <!-- Preconnect for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +47,7 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <img src="https://chery.co.id/assets/images/chery-logo.svg" alt="Chery Logo" class="logo">
+                    <img src="https://brandlogo.org/wp-content/uploads/2024/07/Chery-Automobile-Logo.png" alt="Chery Logo" class="logo">
                     <span class="sales-name">Budi Santoso</span>
                 </div>
                 <ul class="nav-menu">
@@ -388,8 +420,15 @@
         <div class="container">
             <div class="contact-content">
                 <div class="contact-info">
-                    <h2>Hubungi Saya Sekarang</h2>
-                    <p>Siap melayani Anda 24/7 untuk konsultasi, test drive, atau pembelian Chery Tiggo 8</p>
+                    <div class="contact-header">
+                        <div class="contact-header-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="contact-header-text">
+                            <h2>Hubungi Saya Sekarang</h2>
+                            <p>Siap melayani Anda 24/7 untuk konsultasi, test drive, atau pembelian Chery Tiggo 8</p>
+                        </div>
+                    </div>
                     
                     <div class="contact-methods">
                         <div class="contact-method">
@@ -398,8 +437,10 @@
                             </div>
                             <div>
                                 <h4>Telepon/WhatsApp</h4>
-                                <p>+62 812-3456-7890</p>
-                                <a href="https://wa.me/6281234567890" class="contact-link">Chat WhatsApp</a>
+                                <p class="contact-detail">+62 812-3456-7890</p>
+                                <a href="https://wa.me/6281234567890" class="contact-link">
+                                    <i class="fab fa-whatsapp"></i> Chat WhatsApp
+                                </a>
                             </div>
                         </div>
                         
@@ -409,8 +450,10 @@
                             </div>
                             <div>
                                 <h4>Email</h4>
-                                <p>budi.santoso@chery.co.id</p>
-                                <a href="mailto:budi.santoso@chery.co.id" class="contact-link">Kirim Email</a>
+                                <p class="contact-detail">budi.santoso@chery.co.id</p>
+                                <a href="mailto:budi.santoso@chery.co.id" class="contact-link">
+                                    <i class="fas fa-envelope"></i> Kirim Email
+                                </a>
                             </div>
                         </div>
 
@@ -420,8 +463,10 @@
                             </div>
                             <div>
                                 <h4>Lokasi Dealer</h4>
-                                <p>Jl. Wolter Monginsidi No.97<br>Jakarta Selatan 12180</p>
-                                <a href="#" class="contact-link">Lihat Maps</a>
+                                <p class="contact-detail">Jl. Wolter Monginsidi No.97<br>Jakarta Selatan 12180</p>
+                                <a href="https://maps.google.com/maps?q=Jl.+Wolter+Monginsidi+No.97+Jakarta+Selatan" target="_blank" class="contact-link">
+                                    <i class="fas fa-map-marker-alt"></i> Lihat Maps
+                                </a>
                             </div>
                         </div>
 
@@ -431,7 +476,7 @@
                             </div>
                             <div>
                                 <h4>Jam Operasional</h4>
-                                <p>Senin - Sabtu: 08.00 - 17.00<br>Minggu: 09.00 - 15.00</p>
+                                <p class="contact-detail">Senin - Sabtu: 08.00 - 17.00<br>Minggu: 09.00 - 15.00</p>
                             </div>
                         </div>
                     </div>
@@ -485,10 +530,10 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="https://chery.co.id/assets/images/chery-logo.svg" alt="Chery Logo">
-                        <span>Budi Santoso</span>
-                    </div>
+                                    <div class="footer-logo">
+                    <img src="https://brandlogo.org/wp-content/uploads/2024/07/Chery-Automobile-Logo.png" alt="Chery Logo">
+                    <span>Budi Santoso</span>
+                </div>
                     <p>Sales Consultant Chery terpercaya dengan pengalaman 8+ tahun. Siap membantu Anda mendapatkan Chery Tiggo 8 impian dengan pelayanan terbaik.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-whatsapp"></i></a>
@@ -553,6 +598,91 @@
             <div id="modalContent"></div>
         </div>
     </div>
+
+    <!-- Structured Data untuk SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Budi Santoso",
+        "jobTitle": "Sales Consultant",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Chery Indonesia"
+        },
+        "telephone": "+62-812-3456-7890",
+        "email": "budi.santoso@chery.co.id",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jakarta Selatan",
+            "addressCountry": "Indonesia"
+        },
+        "knowsAbout": ["Chery Tiggo 8", "Automotive Sales", "SUV"],
+        "serviceArea": "Jakarta"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Chery Tiggo 8",
+        "description": "SUV premium 7 seater dengan teknologi canggih dan fitur keselamatan lengkap",
+        "brand": {
+            "@type": "Brand",
+            "name": "Chery"
+        },
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Tiggo 8 Comfort",
+                "price": "357500000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "name": "Tiggo 8 Premium",
+                "price": "397500000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "name": "Tiggo 8 Pro",
+                "price": "528500000",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "3"
+        }
+    }
+    </script>
+
+    <!-- Loading Script -->
+    <script>
+        // Preload critical resources
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add loading class to body
+            document.body.classList.add('loading');
+            
+            // Remove loading class after a short delay
+            setTimeout(() => {
+                document.body.classList.remove('loading');
+            }, 500);
+            
+            // Service Worker for caching (optional)
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => console.log('SW registered'))
+                    .catch(error => console.log('SW registration failed'));
+            }
+        });
+    </script>
 
     <script src="script.js"></script>
 </body>

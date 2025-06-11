@@ -1,0 +1,35 @@
+# GitHub Pages Configuration
+title: "Budi Santoso - Sales Consultant Chery Tiggo 8"
+description: "Dapatkan penawaran terbaik Chery Tiggo 8 dari Budi Santoso, sales consultant berpengalaman. Harga mulai IDR 357.500.000 dengan fitur premium dan teknologi canggih."
+url: "https://erzambayu.com/websales" # Ganti dengan URL GitHub Pages Anda
+baseurl: "/websales" # Ganti dengan nama repository Anda
+
+# SEO
+author: "Budi Santoso"
+lang: "id"
+
+# Social Media
+social:
+  whatsapp: "+6281234567890"
+  email: "budi.santoso@chery.co.id"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache 
